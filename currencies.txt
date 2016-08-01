@@ -1,0 +1,3 @@
+usd-rub
+eur-rub
+brent-oil
