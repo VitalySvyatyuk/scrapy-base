@@ -10,5 +10,3 @@ for currency in currencies:
     soup = BeautifulSoup(r.content, "lxml")
     span = soup.find(id="last_last")
     print(span.contents[0])
-
-# '<span class="arial_26 (.+?)" id="last_last" dir="ltr">(.+?)</span>'
